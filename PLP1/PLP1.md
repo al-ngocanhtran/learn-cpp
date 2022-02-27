@@ -1,8 +1,3 @@
-FUV Spring 22 - CS308 - Programming Languages
-Student: Tran Ngoc Anh - ID: 200154
-Instructor: Nanette Simenas 
----- 
-
 # PLP1: History and Hello World
 C++ is a general purpose programming language created by Bjarne Stroustrup.
 

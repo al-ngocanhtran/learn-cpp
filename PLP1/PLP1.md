@@ -13,9 +13,9 @@ C++ is widely used for large software structures and seen in a variety of indust
 
 To learn C++, I will use following resources: 
 
-C++ documentation: https://www.cplusplus.com/doc/tutorial/ 
-FreeCodeCamp Youtube tutorial: https://www.youtube.com/watch?v=8jLOx1hD3_o 
-Learn Cpp: https://www.learncpp.com/ 
+- C++ documentation: https://www.cplusplus.com/doc/tutorial/ 
+- FreeCodeCamp Youtube tutorial: https://www.youtube.com/watch?v=8jLOx1hD3_o 
+- Learn Cpp: https://www.learncpp.com/ 
  
 
 ## Getting Started ## 

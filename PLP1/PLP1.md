@@ -56,6 +56,6 @@ int main()
 3. Type `./a.out` to run the program.
 
 ## References ##
-[1]: <https://www.cplusplus.com/info/history/> (History of C++/C++ Information)
-[2]: <https://www.codecademy.com/resources/blog/what-is-c-plus-plus-used-for/> (Xiao, L. (2021, October 28). What is C++ used for?)
+[1]: <https://www.cplusplus.com/info/history/> 'History of C++/C++ Information'
+[2]: <https://www.codecademy.com/resources/blog/what-is-c-plus-plus-used-for/> 'Xiao, L. (2021, October 28). What is C++ used for?'
 [3]: <https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-hello-world/cheatsheet>

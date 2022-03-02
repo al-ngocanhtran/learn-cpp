@@ -6,7 +6,7 @@ C++ was created by Bjarne Stroustrup in the 1980s with a motivation to add objec
 
 C++ is widely used for large software structures and seen in a variety of industries. For example, C++ is used for back-end services of popular web browsers such as  Google Chrome, Mozilla Firefox, Safari, and Opera to retrieve database information and render code to interactive webpages. C++ also helps Google search engine render quick search result. 
 
-To learn C++, I will use following resources: 
+To learn C++, I use following resources: 
 
 - C++ documentation: https://www.cplusplus.com/doc/tutorial/ 
 - FreeCodeCamp Youtube tutorial: https://www.youtube.com/watch?v=8jLOx1hD3_o 

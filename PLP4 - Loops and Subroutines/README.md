@@ -51,6 +51,6 @@ double sampleFunc(double x, double y){
 - https://www.w3schools.com/cpp/
 - https://www.tutorialspoint.com/cplusplus/cpp_functions.htm
 - https://www.educative.io/edpresso/how-to-return-multiple-values-from-a-function-in-cpp17
-
+- https://www.geeksforgeeks.org/how-to-return-multiple-values-from-a-function-in-c-or-cpp/
 
 

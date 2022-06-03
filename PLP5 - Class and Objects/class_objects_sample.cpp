@@ -1,46 +1,49 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 //Base Class
-class Master{
+class Garage{
     public: 
+        Garage();
         string name;
-        
-        Master(string str){
-            name = str;
-        }
-
-        void feed(){
-            cout << name << " is feeding " << endl;
+        string brand; 
+        int year;
+        char* license_num;
+        void displayInfo()
+        {
+            std::cout << "Car:" << name << std::endl;
+            std::cout << "Brand:" << brand << std::endl;
+            std::cout << "Age:" << year << std::endl;
+            std::cout << "License Number:" << license_num << std::endl;
         }
 };
 
 //derived class
-class Animal: public Master{
+class Car: public Garage{
     public: 
-        string type;
-        int amount;
-
-        Animal(string type, int amount){
-            type = type;
-            amount = amount;
+        string name;
+        string brand; 
+        int year;
+        char* license_num;
+        
+        Car::Car(string name, string brand, int year, char* license_num){
+            name = name; 
+            brand = brand;
+            year = year;
+            license_num = license_num;
         }
 
-        void displayInfo(){
-            if (amount <= 1){
-                cout << amount << " "<< type << " is taken care. " << endl;
-            } else {
-                cout << amount << " " << type << "s are taken care." << endl;
-            }
-        }
+        void displayInfo();
+
 };
 
 int main(){
     //Create object of derived class
-    Master p1("Amy");
-    Animal dogs("poodle", 1);
-    dogs.feed();
-    cout << dogs.amount << " " << dogs.type << endl;
+    Garage gara1 = Garage();
+    Car car1 = Car("Mercedes", "Mercedes-Benz", "1999", "X1345");
+    car1.displayInfo();
+    return 0;
 }
 
 

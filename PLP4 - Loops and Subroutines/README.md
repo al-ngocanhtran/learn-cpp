@@ -28,7 +28,7 @@ void Country(string country = "Poland") {
 //if Country is called without an argument, the default value printed will be Poland.
 
 ```
-- Return values: While C++ does not offer an official way to return multiple values from a single function, there are different ways to get around this. 
+- Return values: While C++ does not offer an official way to return multiple values from a single function, there are different ways to get around this, for example: using reference pointers, using std::pair, using std::tuple or std::map (for C++ 11+)
 - Call types: By default, C++ uses call-by-value to pass arguments. In addition, it also allows pass by reference, in which reference(s) passed into a function. Solutions include return using References, Class and Object or STL tuple. 
 - Recursion: C++ supports recursive functions, whose execution repeats until the condition of the base case is met. To avoid infinite recursion, To prevent infinite recursion, `if...else` statement (or similar approach) can be used to define the base case.
 - Function overloading: With function overloading, multiple functions can have the same name with different parameters. 
@@ -51,6 +51,8 @@ double sampleFunc(double x, double y){
 - https://www.w3schools.com/cpp/
 - https://www.tutorialspoint.com/cplusplus/cpp_functions.htm
 - https://www.educative.io/edpresso/how-to-return-multiple-values-from-a-function-in-cpp17
+- https://www.techiedelight.com/return-multiple-values-functions-cpp/
 - https://www.geeksforgeeks.org/how-to-return-multiple-values-from-a-function-in-c-or-cpp/
+
 
 

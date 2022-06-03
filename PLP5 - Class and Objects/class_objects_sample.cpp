@@ -27,7 +27,7 @@ class Car: public Garage{
         int year;
         char* license_num;
         
-        Car::Car(string name, string brand, int year, char* license_num){
+        Car(string name, string brand, int year, char* license_num){
             name = name; 
             brand = brand;
             year = year;
@@ -41,7 +41,7 @@ class Car: public Garage{
 int main(){
     //Create object of derived class
     Garage gara1 = Garage();
-    Car car1 = Car("Mercedes", "Mercedes-Benz", "1999", "X1345");
+    Car car1 = Car("Mercedes", "Mercedes-Benz", 1999, "X1345");
     car1.displayInfo();
     return 0;
 }
